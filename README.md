@@ -36,4 +36,4 @@ export POSTGRES_PASSWORD=mypassword
 
 After that, restart your terminal to propagate these changes to your shell.
 
-This will allow Lloyd to grade your assignments without having to go into your code and change your connection string to his configuration.
+This will allow Robert to grade your assignments without having to go into your code and change your connection string to his configuration.
