@@ -19,7 +19,7 @@ app.set('view engine', 'pug');
 
 var Bulletin = sequelize.define('bulletinboard', {
   title: Sequelize.STRING,
-  body: Sequelize.STRING
+  body: Sequelize.TEXT
 });
 
 
