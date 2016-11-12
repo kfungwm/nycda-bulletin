@@ -3,8 +3,9 @@ extends ../application.pug
 block content
   h1 Messages
   each message in messages
-    .card.card-block
-      .row
-        .col-xs-4.col-md-8
-          h2= message.title
-          p= message.body
+    .container
+      .card.card-block
+        .row
+          .col-xs-4.col-md-8
+            h2= message.title
+            p= message.body

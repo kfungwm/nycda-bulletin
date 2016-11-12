@@ -4,8 +4,9 @@ const express = require('express'),
       pug = require('pug'),
       Sequelize = require('sequelize');
 
-var app = express();
-    sequelize = new Sequelize('Kevin', 'Kevin', '', { dialect: 'postgres' });
+var app = express(),
+    // sequelize = new Sequelize('Kevin', 'Kevin', '', { dialect: 'postgres' });
+    sequelize = new Sequelize('bulletinboard', process.env.POSTGRES_USER, process.env.POSTGRES_PASSWORD, { dialect: 'postgres' });
 
 
 
